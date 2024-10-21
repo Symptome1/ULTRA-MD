@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         : m.sender
   if (!(who in global.db.data.users)) throw `✳️ The user is not found in my database`
 
-  let pp = './assets/ultra.jpg'
+  let pp = './assets/Ultra.jpg'
   let more = String.fromCharCode(8206)
   let readMore = more.repeat(850)
 
@@ -67,6 +67,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
       lkr = `
 ╭───『 *Bot* 』─❍
 ◈ •quran
+◈ •autoreact
 ◈ •bible
 ◈ •gita
 ◈ •ping
@@ -74,6 +75,9 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ◈ •alive
 ◈ •language
 ◈ •server
+◈ •rentbot
+◈ •listrent
+◈ •stoprent
 ◈ •botinfo
 ◈ •owner
 ◈ •script
@@ -200,17 +204,16 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     case 'dlmenu':
       lkr = `
 ╭───『 *Download* 』─❍
-◈ •video
+◈ •likee
+◈ •pinterest
+◈ •threads
+◈ •capcut
 ◈ •itunes
-◈ •play9
+◈ •play
 ◈ •play2
-◈ •play3
 ◈ •play7
-◈ •apk
 ◈ •mega
 ◈ •yts
-◈ •yta
-◈ •ytv
 ◈ •ytmp3 
 ◈ •ytmp4
 ◈ •gimage
